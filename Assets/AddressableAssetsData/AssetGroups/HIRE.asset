@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: HIRE
+  m_EditorClassIdentifier: 
+  m_GroupName: HIRE
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5f6a99f74d76b14468c1a852f5b4a225
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1efe5e2363cd87645aab827ba0c75562, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9c517d3eb9859a54bb8c83e0849ea4c7, type: 2}
+    - {fileID: 11400000, guid: 804bf78bc95717c42aca9609551b72d7, type: 2}

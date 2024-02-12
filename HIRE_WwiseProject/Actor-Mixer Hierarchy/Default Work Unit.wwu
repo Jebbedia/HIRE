@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{850A38AF-60E4-4650-8AFC-BAA37D3AA908}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{850A38AF-60E4-4650-8AFC-BAA37D3AA908}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="HIRE125_engine_running" ID="{55C3F72F-32F1-4D7B-9305-426C8DB93049}" ShortID="162285154">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>42</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-90</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA5106A-6188-4D0C-9BE5-EF0DC419B4B7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D269FCBB-D992-45FD-929D-884A3F67BF1F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="71023__timbre__cooking-with-gas-like-a-rocket" ID="{E8F9849C-18EB-4A41-94BA-9AC21B06857A}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="4.6187533557047"/>
+								<Property Name="LoopEnd" Type="Real64" Value="15.0312060961969"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>71023__timbre__cooking-with-gas-like-a-rocket.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="914681541"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="71023__timbre__cooking-with-gas-like-a-rocket" ID="{E8F9849C-18EB-4A41-94BA-9AC21B06857A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

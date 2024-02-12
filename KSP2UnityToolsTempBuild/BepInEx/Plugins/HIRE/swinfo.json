@@ -1,0 +1,31 @@
+{
+  "spec": "2.0",
+  "mod_id": "HIRE",
+  "name": "HIRE",
+  "author": "Rafael Aeronautics",
+  "description": "Heatshield Integrated (Retractable) Engines",
+  "source": "",
+  "version": "0.7",
+  "version_check": "",
+  "ksp2_version": {
+    "min": "*",
+    "max": "*"
+  },
+  "dependencies": [
+    {
+      "id": "com.github.x606.spacewarp",
+      "version": {
+        "min": "1.9.0",
+        "max": "*"
+      }
+    },
+    {
+      "id": "lfo",
+      "version": {
+        "min": "1.0.0",
+        "max": "*"
+      }
+    }
+  ],
+  "conflicts": []
+}

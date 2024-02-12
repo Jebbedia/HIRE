@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3332699415" Type="User" Language="SFX" Hash="{051E79EA-C45F-394A-7AB1-9169AB5B9CB1}">
+			<ShortName>HIRE</ShortName>
+			<Path>HIRE.bnk</Path>
+			<Media>
+				<File Id="914681541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>71023__timbre__cooking-with-gas-like-a-rocket.wav</ShortName>
+					<CachePath>SFX/71023__timbre__cooking-with-gas-like-a-rocket_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1612537431" Name="Play_HIRE125_engine_running" DurationType="OneShot" DurationMin="31.794605" DurationMax="31.794605">
+					<MediaRefs>
+						<MediaRef Id="914681541"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1929491675" Name="Play_HIRE125_engine_running_01" DurationType="OneShot" DurationMin="31.794605" DurationMax="31.794605">
+					<MediaRefs>
+						<MediaRef Id="914681541"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{209798EF-E784-0C02-FD19-5E4EE13AFDEE}</FileHash>
+</SoundBanksInfo>

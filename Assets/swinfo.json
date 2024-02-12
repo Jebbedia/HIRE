@@ -1,0 +1,24 @@
+{
+  "spec": "2.0",
+  "mod_id": "sampleMod",
+  "name": "Sample Mod",
+  "author": "nobody",
+  "description": "A sample mod for KSP2",
+  "source": "",
+  "version": "0.1.0",
+  "version_check": "",
+  "ksp2_version": {
+    "min": "*",
+    "max": "*"
+  },
+  "dependencies": [
+    {
+      "id": "com.github.x606.spacewarp",
+      "version": {
+        "min": "1.5.1",
+        "max": "*"
+      }
+    }
+  ],
+  "conflicts": []
+}

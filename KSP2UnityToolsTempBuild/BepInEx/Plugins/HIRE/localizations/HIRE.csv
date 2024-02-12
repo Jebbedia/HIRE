@@ -1,0 +1,5 @@
+Key,Type,Desc,English
+Parts/Title/TestParts_Engine,Text,,Example Engine
+Parts/Subtitle/TestParts_Engine,Text,,An awesome methalox engine
+Parts/Manufacturer/TestParts_Engine,Text,,"Munix, Inc."
+Parts/Description/TestParts_Engine,Text,,"This is an amazing methalox engine unlike any other you've seen before, it can do everything."

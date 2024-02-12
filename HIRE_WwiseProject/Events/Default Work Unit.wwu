@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2D840D3A-89D7-42AE-BE67-61F17B3A6561}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2D840D3A-89D7-42AE-BE67-61F17B3A6561}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_HIRE125_engine_running" ID="{46534B20-09D3-48CD-AEDA-A1FBA8185EB3}">
+					<ChildrenList>
+						<Action Name="" ID="{5068089A-4367-4A04-B4FD-DA73770A524B}" ShortID="1043420296">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HIRE125_engine_running" ID="{55C3F72F-32F1-4D7B-9305-426C8DB93049}" WorkUnitID="{850A38AF-60E4-4650-8AFC-BAA37D3AA908}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HIRE125_engine_running_01" ID="{7B784F02-16ED-463B-ACEA-44B746095230}">
+					<ChildrenList>
+						<Action Name="" ID="{A20A83B3-9DE7-4846-952B-50C9949E3687}" ShortID="538105144">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HIRE125_engine_running" ID="{55C3F72F-32F1-4D7B-9305-426C8DB93049}" WorkUnitID="{850A38AF-60E4-4650-8AFC-BAA37D3AA908}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
