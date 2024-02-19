@@ -1,7 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
+	690868778	Play_HIRE250_engine_running			\Default Work Unit\Play_HIRE250_engine_running	
 	1612537431	Play_HIRE125_engine_running			\Default Work Unit\Play_HIRE125_engine_running	
 	1929491675	Play_HIRE125_engine_running_01			\Default Work Unit\Play_HIRE125_engine_running_01	
+	3906882604	Play_HIRE375_engine_running			\Default Work Unit\Play_HIRE375_engine_running	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	914681541	HIRE125_engine_running	D:\HIRE\HIRE_WwiseProject\.cache\Windows\SFX\71023__timbre__cooking-with-gas-like-a-rocket_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\HIRE125_engine_running		5795416
+	119253499	HIRE250_engine_running	D:\HIRE\HIRE_WwiseProject\.cache\Windows\SFX\SpaceX Raptor Engine Firing_2E874639.wem		\Actor-Mixer Hierarchy\Default Work Unit\HIRE250_engine_running		1802568
+	374107603	HIRE375_engine_running	D:\HIRE\HIRE_WwiseProject\.cache\Windows\SFX\SpaceX Starship Raptor 2 engine test_1C3D5370.wem		\Actor-Mixer Hierarchy\Default Work Unit\HIRE375_engine_running		1735540
+	914681541	HIRE125_engine_running	D:\HIRE\HIRE_WwiseProject\.cache\Windows\SFX\71023__timbre__cooking-with-gas-like-a-rocket_85AF32CE.wem		\Actor-Mixer Hierarchy\Default Work Unit\HIRE125_engine_running		5795464
 

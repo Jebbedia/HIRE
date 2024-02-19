@@ -94,10 +94,10 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 3a0d842dd789ae42be6761f17b3a6561
     GuidInternal: 
-    m_lastTime: -8584942216858091967
+    m_lastTime: -8584937100732559327
     List:
     - name: Play_HIRE125_engine_running
-      guid: 204b5346d309cd48aedaa1fba8185eb3
+      guid: eb596de32d344c4cb2bef7c8e6ce6c7b
       id: 1612537431
       PathAndIcons:
       - ElementName: Events
@@ -108,14 +108,14 @@ MonoBehaviour:
         guid: 3a0d842dd789ae42be6761f17b3a6561
       - ElementName: Play_HIRE125_engine_running
         ObjectType: 3
-        guid: 204b5346d309cd48aedaa1fba8185eb3
+        guid: eb596de32d344c4cb2bef7c8e6ce6c7b
       Path: Events\Default Work Unit\Play_HIRE125_engine_running
       maxAttenuation: 0
-      maxDuration: 31.794605
-      minDuration: 31.794605
-    - name: Play_HIRE125_engine_running_01
-      guid: 024f787bed163b46acea44b746095230
-      id: 1929491675
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_HIRE250_engine_running
+      guid: 04043e495c9d354cbdc38d6137e8d50e
+      id: 690868778
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -123,13 +123,30 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 3a0d842dd789ae42be6761f17b3a6561
-      - ElementName: Play_HIRE125_engine_running_01
+      - ElementName: Play_HIRE250_engine_running
         ObjectType: 3
-        guid: 024f787bed163b46acea44b746095230
-      Path: Events\Default Work Unit\Play_HIRE125_engine_running_01
+        guid: 04043e495c9d354cbdc38d6137e8d50e
+      Path: Events\Default Work Unit\Play_HIRE250_engine_running
       maxAttenuation: 0
-      maxDuration: 31.794605
-      minDuration: 31.794605
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_HIRE375_engine_running
+      guid: b259590fa92d9d46a2da65b4f680ae57
+      id: 3906882604
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3a0d842dd789ae42be6761f17b3a6561
+      - ElementName: Play_HIRE375_engine_running
+        ObjectType: 3
+        guid: b259590fa92d9d46a2da65b4f680ae57
+      Path: Events\Default Work Unit\Play_HIRE375_engine_running
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -186,7 +203,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584944941549168931
     List: []
-  ExpandedFileSystemItemIds: 
+  ExpandedFileSystemItemIds: 0200000003000000060000000a0000000b0000000c0000000e00000017000000
   ExpandedWaapiItemIds: 02000000030000000a0000000b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

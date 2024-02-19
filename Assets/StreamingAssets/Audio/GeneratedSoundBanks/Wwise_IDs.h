@@ -15,6 +15,8 @@ namespace AK
     {
         static const AkUniqueID PLAY_HIRE125_ENGINE_RUNNING = 1612537431U;
         static const AkUniqueID PLAY_HIRE125_ENGINE_RUNNING_01 = 1929491675U;
+        static const AkUniqueID PLAY_HIRE250_ENGINE_RUNNING = 690868778U;
+        static const AkUniqueID PLAY_HIRE375_ENGINE_RUNNING = 3906882604U;
     } // namespace EVENTS
 
     namespace BANKS

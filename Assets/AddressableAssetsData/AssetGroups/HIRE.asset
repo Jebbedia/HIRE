@@ -16,7 +16,46 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 5f6a99f74d76b14468c1a852f5b4a225
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 213634baa7d92a9439e954c9d13d4b1f
+    m_Address: HIRE125.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2515190ea6549d7409ee3870d7d1ebae
+    m_Address: HIRE125.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c780337ad29e3e4ea89f5ced94533a9
+    m_Address: lfo/HIRE125.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - lfo_configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23e51bf4a335b5e449b6e0f25ccf8066
+    m_Address: HIRE250.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67353f89817491f4395755818372f77b
+    m_Address: HIRE250.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d0f215927ee83a43bf1fcff6422cb8b
+    m_Address: HIRE375.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df88620258c0d254ab7bee64d91f58b9
+    m_Address: HIRE375.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 1efe5e2363cd87645aab827ba0c75562, type: 2}
   m_SchemaSet:

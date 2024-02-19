@@ -3,7 +3,7 @@
   "useExternal": false,
   "data": {
     "partName": "HIRE250",
-    "author": "Rafael Aeronautics",
+    "author": "Kapazunder Industries",
     "category": "Engine",
     "family": "",
     "childStageOffset": 1,
@@ -135,6 +135,46 @@
     ],
     "AllowKinematicPhysicsIfIntersectTerrain": false,
     "serializedPartModules": [
+      {
+        "Name": "PartComponentModule_Color",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Color",
+            "ModuleType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Color, Assembly-CSharp",
+              "Base": {
+                "ContextKey": "Base",
+                "storedValue": {
+                  "r": 0.654902,
+                  "g": 0.6666667,
+                  "b": 0.6862745,
+                  "a": 1.0
+                }
+              },
+              "Accent": {
+                "ContextKey": "Accent",
+                "storedValue": {
+                  "r": 0.4117647,
+                  "g": 0.443137258,
+                  "b": 0.5176471,
+                  "a": 1.0
+                }
+              },
+              "ModuleType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
       {
         "Name": "PartComponentModule_Gimbal",
         "ComponentType": "KSP.Sim.impl.PartComponentModule_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -589,90 +629,6 @@
         ]
       },
       {
-        "Name": "PartComponentModule_Drag",
-        "ComponentType": "KSP.Sim.impl.PartComponentModule_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-        "BehaviourType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-        "ModuleData": [
-          {
-            "Name": "Data_Drag",
-            "ModuleType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "DataType": "KSP.Modules.Data_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "Data": null,
-            "DataObject": {
-              "$type": "KSP.Modules.Data_Drag, Assembly-CSharp",
-              "BodyLiftEnabled": true,
-              "DragEnabled": true,
-              "bodyLiftMultiplier": 1.0,
-              "cubes": [],
-              "weightedArea": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "weightedExposedArea": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "weightedDrag": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "weightedDragMultiplier": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "weightedDepth": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "weightedCenter": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "weightedSize": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "isDragCubeRotated": false,
-              "dragCubeRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-              },
-              "UpdateExposedArea": false,
-              "ModuleType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-              "DataType": "KSP.Modules.Data_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-              "IsActiveInStagingProp": {
-                "ContextKey": null,
-                "storedValue": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "Name": "PartComponentModule_Heatshield",
         "ComponentType": "KSP.Sim.impl.PartComponentModule_Heatshield, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
         "BehaviourType": "KSP.Modules.Module_Heatshield, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -717,107 +673,6 @@
               "AblatorMaxValue": 1.0,
               "ModuleType": "KSP.Modules.Module_Heatshield, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
               "DataType": "KSP.Modules.Data_Heatshield, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-              "IsActiveInStagingProp": {
-                "ContextKey": null,
-                "storedValue": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "Name": "PartComponentModule_Deployable",
-        "ComponentType": "KSP.Sim.impl.PartComponentModule_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-        "BehaviourType": "KSP.Modules.Module_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-        "ModuleData": [
-          {
-            "Name": "Data_Deployable",
-            "ModuleType": "KSP.Modules.Module_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "DataType": "KSP.Modules.Data_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "Data": null,
-            "DataObject": {
-              "$type": "KSP.Modules.Data_Deployable, Assembly-CSharp",
-              "toggleExtend": {
-                "ContextKey": "toggleExtend",
-                "storedValue": false
-              },
-              "DeployLimit": {
-                "ContextKey": "DeployLimit",
-                "storedValue": 1.0
-              },
-              "AnimationNormalizedTime": {
-                "ContextKey": "AnimationNormalizedTime",
-                "storedValue": 0.0
-              },
-              "CurrentDeployState": {
-                "ContextKey": null,
-                "storedValue": "Retracted"
-              },
-              "showStatus": true,
-              "isTracking": true,
-              "applyShielding": true,
-              "applyShieldingExtend": true,
-              "retractable": true,
-              "extendable": true,
-              "TrackingAlignmentOffset": 0.0,
-              "trackingSpeed": 0.25,
-              "EditorAnimSpeedMul": 10.0,
-              "pivotName": "",
-              "alignType": "",
-              "secondaryTransform": "",
-              "animationName": "",
-              "trackingMode": "None",
-              "rotationMode": "YAW",
-              "originalRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-              },
-              "currentRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-              },
-              "targetGUID": "myTargetGUID",
-              "LimitRotation": false,
-              "UseDeployLimit": false,
-              "AxisMinMaxRotation": {
-                "x": -180.0,
-                "y": 180.0
-              },
-              "DefaultActionGroup": "None",
-              "deployCrashTolerance": 10.0,
-              "deployMaxTemp": 2000.0,
-              "deployBreakingForce": 200.0,
-              "deployBreakingTorque": 200.0,
-              "DisableAnimatorWhenInactive": false,
-              "AnimDeployStateKey": "isDeployed",
-              "AnimSpeedMultiplierKey": "playbackMul",
-              "AnimReverseStateTransitionTriggerKey": "reverseAnimStateChange",
-              "AnimDeployLimitKey": "deployLimitValue",
-              "DefaultRetractedAnimSpeedValue": 1000.0,
-              "DefaultExtendedAnimSpeedValue": 1000.0,
-              "DeployPartTypeName": "PartModules/Deployable/PartType",
-              "OneTimeExtendActionName": "PartModules/Deployable/ExtendOnly",
-              "DeployToggleActionName": "PartModules/Deployable/Toggle",
-              "ActionGroupToggleName": "PartModules/Deployable/ToggleExtended/Toggle",
-              "ActionGroupExtendName": "PartModules/Deployable/ToggleExtended/Extend",
-              "ActionGroupRetractName": "PartModules/Deployable/ToggleExtended/Retract",
-              "DeployStateRetractedName": "PartModules/Deployable/State/Retracted",
-              "DeployStateExtendedName": "PartModules/Deployable/State/Extended",
-              "DeployStateMovingName": "PartModules/Deployable/State/Moving",
-              "DeployStateBlockedName": "PartModules/Deployable/State/Blocked",
-              "DeployStateExtendedCannotRetractName": "PartModules/Deployable/State/CannotRetract",
-              "DeployRetractedCannotRetractName": "PartModules/Deployable/State/RetractedCannotRetract",
-              "ModuleType": "KSP.Modules.Module_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-              "IsExtended": false,
-              "IsRetracted": true,
-              "IsRetracting": false,
-              "IsExtending": false,
-              "UseAnimation": true,
-              "DataType": "KSP.Modules.Data_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
               "IsActiveInStagingProp": {
                 "ContextKey": null,
                 "storedValue": false
@@ -909,7 +764,7 @@
               "NumberOfCollidersPerCrossSection": 8,
               "MinHeightRadiusRatio": 0.07,
               "CrossSectionHeightMin": 0.01,
-              "CrossSectionHeightMax": 0.55,
+              "CrossSectionHeightMax": 0.9,
               "AerodynamicallyShieldContents": true,
               "ConeSweepRays": 120,
               "ConeSweepPrecision": 10.0,
@@ -942,6 +797,191 @@
               "ModuleType": "KSP.Modules.Module_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
               "MassModifier": 0.0,
               "DataType": "KSP.Modules.Data_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_Drag",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Drag",
+            "ModuleType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Drag, Assembly-CSharp",
+              "BodyLiftEnabled": true,
+              "DragEnabled": true,
+              "bodyLiftMultiplier": 1.0,
+              "cubes": [],
+              "weightedArea": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedExposedArea": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDrag": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDragMultiplier": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDepth": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "weightedSize": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "isDragCubeRotated": false,
+              "dragCubeRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "UpdateExposedArea": false,
+              "ModuleType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_Deployable",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Deployable",
+            "ModuleType": "KSP.Modules.Module_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Deployable, Assembly-CSharp",
+              "toggleExtend": {
+                "ContextKey": "toggleExtend",
+                "storedValue": false
+              },
+              "DeployLimit": {
+                "ContextKey": "DeployLimit",
+                "storedValue": 1.0
+              },
+              "AnimationNormalizedTime": {
+                "ContextKey": "AnimationNormalizedTime",
+                "storedValue": 0.0
+              },
+              "CurrentDeployState": {
+                "ContextKey": null,
+                "storedValue": "Retracted"
+              },
+              "showStatus": true,
+              "isTracking": true,
+              "applyShielding": true,
+              "applyShieldingExtend": true,
+              "retractable": true,
+              "extendable": true,
+              "TrackingAlignmentOffset": 0.0,
+              "trackingSpeed": 0.25,
+              "EditorAnimSpeedMul": 10.0,
+              "pivotName": "",
+              "alignType": "",
+              "secondaryTransform": "",
+              "animationName": "",
+              "trackingMode": "None",
+              "rotationMode": "YAW",
+              "originalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+              },
+              "currentRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+              },
+              "targetGUID": "myTargetGUID",
+              "LimitRotation": false,
+              "UseDeployLimit": false,
+              "AxisMinMaxRotation": {
+                "x": -180.0,
+                "y": 180.0
+              },
+              "DefaultActionGroup": "None",
+              "deployCrashTolerance": 10.0,
+              "deployMaxTemp": 2000.0,
+              "deployBreakingForce": 200.0,
+              "deployBreakingTorque": 200.0,
+              "DisableAnimatorWhenInactive": true,
+              "AnimDeployStateKey": "isDeployed",
+              "AnimSpeedMultiplierKey": "playbackMul",
+              "AnimReverseStateTransitionTriggerKey": "reverseAnimStateChange",
+              "AnimDeployLimitKey": "deployLimitValue",
+              "DefaultRetractedAnimSpeedValue": 1000.0,
+              "DefaultExtendedAnimSpeedValue": 1000.0,
+              "DeployPartTypeName": "PartModules/Deployable/PartType",
+              "OneTimeExtendActionName": "PartModules/Deployable/ExtendOnly",
+              "DeployToggleActionName": "PartModules/Deployable/Toggle",
+              "ActionGroupToggleName": "PartModules/Deployable/ToggleExtended/Toggle",
+              "ActionGroupExtendName": "PartModules/Deployable/ToggleExtended/Extend",
+              "ActionGroupRetractName": "PartModules/Deployable/ToggleExtended/Retract",
+              "DeployStateRetractedName": "PartModules/Deployable/State/Retracted",
+              "DeployStateExtendedName": "PartModules/Deployable/State/Extended",
+              "DeployStateMovingName": "PartModules/Deployable/State/Moving",
+              "DeployStateBlockedName": "PartModules/Deployable/State/Blocked",
+              "DeployStateExtendedCannotRetractName": "PartModules/Deployable/State/CannotRetract",
+              "DeployRetractedCannotRetractName": "PartModules/Deployable/State/RetractedCannotRetract",
+              "ModuleType": "KSP.Modules.Module_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsExtended": false,
+              "IsRetracted": true,
+              "IsRetracting": false,
+              "IsExtending": false,
+              "UseAnimation": true,
+              "DataType": "KSP.Modules.Data_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
               "IsActiveInStagingProp": {
                 "ContextKey": null,
                 "storedValue": false

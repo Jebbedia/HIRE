@@ -20,8 +20,16 @@ MonoBehaviour:
   - HIRE250
   - HIRE250 (1)
   - HIRE250old
+  - HIRE375test
+  - HIRE375
+  - old
+  - HIRE375old
   Values:
   - HIRE125.json
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
   - '%NAME%.json'
   - '%NAME%.json'
   - '%NAME%.json'

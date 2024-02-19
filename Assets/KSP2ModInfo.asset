@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: HIRE
   name: HIRE
-  author: Rafael Aeronautics
+  author: Kapzunder Industries
   description: Heatshield Integrated (Retractable) Engines
   version: 0.7
   versionCheck: 

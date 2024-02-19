@@ -3,7 +3,7 @@
   "useExternal": false,
   "data": {
     "partName": "HIRE125",
-    "author": "Rafael Aeronautics",
+    "author": "Kapazunder Industries",
     "category": "Engine",
     "family": "",
     "childStageOffset": 0,
@@ -125,9 +125,56 @@
         "isCompoundJoint": false
       }
     ],
-    "resourceContainers": [],
+    "resourceContainers": [
+      {
+        "name": "Ablator",
+        "capacityUnits": 0.2,
+        "initialUnits": 0.2,
+        "NonStageable": false
+      }
+    ],
     "AllowKinematicPhysicsIfIntersectTerrain": false,
     "serializedPartModules": [
+      {
+        "Name": "PartComponentModule_Color",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Color",
+            "ModuleType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Color, Assembly-CSharp",
+              "Base": {
+                "ContextKey": "Base",
+                "storedValue": {
+                  "r": 0.654902,
+                  "g": 0.6666667,
+                  "b": 0.6862745,
+                  "a": 1.0
+                }
+              },
+              "Accent": {
+                "ContextKey": "Accent",
+                "storedValue": {
+                  "r": 0.4117647,
+                  "g": 0.443137258,
+                  "b": 0.5176471,
+                  "a": 1.0
+                }
+              },
+              "ModuleType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
       {
         "Name": "PartComponentModule_Gimbal",
         "ComponentType": "KSP.Sim.impl.PartComponentModule_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -499,75 +546,6 @@
         ]
       },
       {
-        "Name": "PartComponentModule_Generator",
-        "ComponentType": "KSP.Sim.impl.PartComponentModule_Generator, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-        "BehaviourType": "KSP.Modules.Module_Generator, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-        "ModuleData": [
-          {
-            "Name": "Data_ModuleGenerator",
-            "ModuleType": "KSP.Modules.Module_Generator, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "DataType": "KSP.Modules.Data_ModuleGenerator, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "Data": null,
-            "DataObject": {
-              "$type": "KSP.Modules.Data_ModuleGenerator, Assembly-CSharp",
-              "GeneratorEnabled": {
-                "ContextKey": "GeneratorEnabled",
-                "storedValue": false
-              },
-              "GeneratorIsActive": false,
-              "IsAlwaysActive": false,
-              "Status": "OFF",
-              "ResourceSetting": {
-                "Rate": 1.0,
-                "ResourceName": "ElectricCharge",
-                "AcceptanceThreshold": 0.0
-              },
-              "UseDecay": false,
-              "DecayTime": 460080000.0,
-              "DecayCurve": {
-                "fCurve": {
-                  "keys": [],
-                  "length": 0,
-                  "preWrapMode": "ClampForever",
-                  "postWrapMode": "ClampForever"
-                },
-                "_minTime": 3.40282347E+38,
-                "_maxTime": -3.40282347E+38
-              },
-              "StartDecayImmediately": false,
-              "IsDecaying": false,
-              "CurrentDecayTime": 0.0,
-              "FluxGenerated": 0.0,
-              "AutoShutdown": false,
-              "AutoShutdownTemperature": 2000.0,
-              "SafeOperationTemperature": 1000.0,
-              "UseEmissive": false,
-              "UseEmissiveTemperature": false,
-              "EmissiveMaterialNames": [],
-              "EmissiveTemperatureCurve": {
-                "fCurve": {
-                  "keys": [],
-                  "length": 0,
-                  "preWrapMode": "ClampForever",
-                  "postWrapMode": "ClampForever"
-                },
-                "_minTime": 3.40282347E+38,
-                "_maxTime": -3.40282347E+38
-              },
-              "EmissiveLerpRateUp": 0.1,
-              "EmissiveLerpRateDown": 0.01,
-              "RequestConfig": null,
-              "ModuleType": "KSP.Modules.Module_Generator, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-              "DataType": "KSP.Modules.Data_ModuleGenerator, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-              "IsActiveInStagingProp": {
-                "ContextKey": null,
-                "storedValue": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "Name": "PartComponentModule_ResourceConverter",
         "ComponentType": "KSP.Sim.impl.PartComponentModule_ResourceConverter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
         "BehaviourType": "KSP.Modules.Module_ResourceConverter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -757,7 +735,7 @@
             "DataObject": {
               "$type": "KSP.Modules.Data_Heatshield, Assembly-CSharp",
               "IsDeployed": false,
-              "IsAblating": true,
+              "IsAblating": false,
               "HasEnoughResources": false,
               "AblatorRatio": 1.0,
               "AblatorTonnesPerSecond": 1.0,
@@ -765,22 +743,28 @@
               "ShieldingDirectionScale": 1.0,
               "CurrentStatus": "NOMINAL",
               "IsAblatorExhausted": false,
-              "requiredResources": [],
-              "AblationTempThreshold": 600.0,
+              "requiredResources": [
+                {
+                  "Rate": 0.5,
+                  "ResourceName": "Ablator",
+                  "AcceptanceThreshold": 0.001
+                }
+              ],
+              "AblationTempThreshold": 1000.0,
               "AblationMaximumOverThreshold": 50.0,
-              "PyrolysisLossFactor": 1.0,
+              "PyrolysisLossFactor": 1.6E-07,
               "ShieldingScale": 1.0,
               "ShieldingDirection": {
                 "x": 0.0,
-                "y": -1.0,
+                "y": 1.0,
                 "z": 0.0
               },
               "DisabledWhenRetracted": true,
               "UseChar": true,
-              "CharMaterialName": "",
-              "CharMin": 0.1,
-              "CharMax": 0.85,
-              "AblatorMaxValue": 0.2,
+              "CharMaterialName": "heatshield_1v",
+              "CharMin": 0.0,
+              "CharMax": 1.0,
+              "AblatorMaxValue": 1.0,
               "ModuleType": "KSP.Modules.Module_Heatshield, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
               "DataType": "KSP.Modules.Data_Heatshield, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
               "IsActiveInStagingProp": {
@@ -839,7 +823,7 @@
               "FloatingAttachNodeTag": "bottom",
               "FloatingNodePosition": {
                 "x": 0.0,
-                "y": 0.0,
+                "y": 0.275,
                 "z": 0.0
               },
               "FloatingNodeDirection": {
@@ -871,9 +855,9 @@
               "MaxRadius": 6.0,
               "SnapThreshold": 0.25,
               "CreateShellColliders": false,
-              "NumberOfCollidersPerCrossSection": 12,
+              "NumberOfCollidersPerCrossSection": 8,
               "MinHeightRadiusRatio": 0.07,
-              "CrossSectionHeightMin": 0.1,
+              "CrossSectionHeightMin": 0.01,
               "CrossSectionHeightMax": 0.275,
               "AerodynamicallyShieldContents": true,
               "ConeSweepRays": 120,
@@ -900,7 +884,7 @@
               "LengthEditDefault": 0.0,
               "StageToggleDefault": false,
               "MaxAutoFairingTargetRadius": -1,
-              "MinAutoFairingTargetRadius": -1,
+              "MinAutoFairingTargetRadius": 2,
               "CrossSections": [],
               "MassModifierAmount": 0.0,
               "DragCubeIndex": -1,

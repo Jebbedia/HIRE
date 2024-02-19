@@ -3,13 +3,18 @@
     <type fullname="WwiseEventReference" preserve="all" />
     <type fullname="AK.Wwise.Event" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="AK.Wwise.Unity.MonoBehaviour, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AkGameObj" preserve="all" />
+    <type fullname="AkGameObjListenerList" preserve="nothing" serialized="true" />
+    <type fullname="AkGameObjPositionOffsetData" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="KSP.CorePartData" preserve="all" />
+    <type fullname="KSP.Modules.Module_Color" preserve="all" />
     <type fullname="KSP.Modules.Module_Deployable" preserve="all" />
     <type fullname="KSP.Modules.Module_Drag" preserve="all" />
     <type fullname="KSP.Modules.Module_Engine" preserve="all" />
     <type fullname="KSP.Modules.Module_Fairing" preserve="all" />
-    <type fullname="KSP.Modules.Module_Generator" preserve="all" />
     <type fullname="KSP.Modules.Module_Gimbal" preserve="all" />
     <type fullname="KSP.Modules.Module_Heatshield" preserve="all" />
     <type fullname="KSP.Modules.Module_ResourceConverter" preserve="all" />
@@ -18,15 +23,18 @@
     <type fullname="KSPPartAudio" preserve="all" />
     <type fullname="KSPPartEngineAudio" preserve="all" />
     <type fullname="FloatCurve" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Color" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Deployable" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Deployable/DeployState" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Deployable/RotationMode" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Deployable/TrackingMode" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_Drag" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_Engine" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_Engine/EngineMode" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_Fairing" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_Gimbal" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_Heatshield" preserve="nothing" serialized="true" />
-    <type fullname="KSP.Modules.Data_ModuleGenerator" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_ResourceConverter" preserve="nothing" serialized="true" />
-    <type fullname="KSP.Modules.GeneratorStatus" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.PropellantDefinition" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.ResourceConversionState" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.ResourceConverterFormulaDefinition" preserve="nothing" serialized="true" />
@@ -42,6 +50,7 @@
     <type fullname="KSP.Sim.Definitions.SerializedModuleData" preserve="nothing" serialized="true" />
     <type fullname="KSP.Sim.Definitions.SerializedPartModule" preserve="nothing" serialized="true" />
     <type fullname="KSP.Sim.Definitions.SerializedResourceInfo" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.ResourceSystem.ContainedResourceDefinition" preserve="nothing" serialized="true" />
     <type fullname="KSP.Sim.ResourceSystem.ResourceFlowRequestHandle" preserve="nothing" serialized="true" />
     <type fullname="KSP.VFX.Reentry.ReentryGroupData" preserve="nothing" serialized="true" />
     <type fullname="KSP.VFX.Reentry.ReentryMeshGroupType" preserve="nothing" serialized="true" />
@@ -49,10 +58,6 @@
     <type fullname="KSPPartEngineAudio/EngineSounds" preserve="nothing" serialized="true" />
     <type fullname="KSPPartEngineAudio/SecondaryEngineSounds" preserve="nothing" serialized="true" />
     <type fullname="Vector3d" preserve="nothing" serialized="true" />
-    <type fullname="KSP.Modules.Data_Deployable" preserve="nothing" serialized="true" />
-    <type fullname="KSP.Modules.Data_Deployable/DeployState" preserve="nothing" serialized="true" />
-    <type fullname="KSP.Modules.Data_Deployable/RotationMode" preserve="nothing" serialized="true" />
-    <type fullname="KSP.Modules.Data_Deployable/TrackingMode" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="lfo.shared, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="LFO.Shared.Components.LFOThrottleDataMasterGroup" preserve="all" />
@@ -86,6 +91,8 @@
     <type fullname="UnityEngine.Transform" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
   </assembly>
 </linker>

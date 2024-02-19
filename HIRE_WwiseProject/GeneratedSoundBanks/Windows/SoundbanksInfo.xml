@@ -22,28 +22,46 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3332699415" Type="User" Language="SFX" Hash="{051E79EA-C45F-394A-7AB1-9169AB5B9CB1}">
+		<SoundBank Id="3332699415" Type="User" Language="SFX" Hash="{7E3C2D65-F7D4-FF30-B2C8-057422C5F0C5}">
 			<ShortName>HIRE</ShortName>
 			<Path>HIRE.bnk</Path>
 			<Media>
+				<File Id="119253499" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SpaceX Raptor Engine Firing.wav</ShortName>
+					<CachePath>SFX/SpaceX Raptor Engine Firing_2E874639.wem</CachePath>
+				</File>
+				<File Id="374107603" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SpaceX Starship Raptor 2 engine test.wav</ShortName>
+					<CachePath>SFX/SpaceX Starship Raptor 2 engine test_1C3D5370.wem</CachePath>
+				</File>
 				<File Id="914681541" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>71023__timbre__cooking-with-gas-like-a-rocket.wav</ShortName>
-					<CachePath>SFX/71023__timbre__cooking-with-gas-like-a-rocket_818F3B66.wem</CachePath>
+					<CachePath>SFX/71023__timbre__cooking-with-gas-like-a-rocket_85AF32CE.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1612537431" Name="Play_HIRE125_engine_running" DurationType="OneShot" DurationMin="31.794605" DurationMax="31.794605">
+				<Event Id="1612537431" Name="Play_HIRE125_engine_running" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="914681541"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1929491675" Name="Play_HIRE125_engine_running_01" DurationType="OneShot" DurationMin="31.794605" DurationMax="31.794605">
+				<Event Id="1929491675" Name="Play_HIRE125_engine_running_01" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="914681541"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="690868778" Name="Play_HIRE250_engine_running" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="119253499"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3906882604" Name="Play_HIRE375_engine_running" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="374107603"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{209798EF-E784-0C02-FD19-5E4EE13AFDEE}</FileHash>
+	<FileHash>{3969416E-2E4D-D381-CB36-284319DDAF32}</FileHash>
 </SoundBanksInfo>

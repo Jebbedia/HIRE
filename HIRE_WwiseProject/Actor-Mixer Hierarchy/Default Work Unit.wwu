@@ -5,19 +5,26 @@
 			<ChildrenList>
 				<Sound Name="HIRE125_engine_running" ID="{55C3F72F-32F1-4D7B-9305-426C8DB93049}" ShortID="162285154">
 					<PropertyList>
-						<Property Name="Highpass" Type="int16">
-							<ValueList>
-								<Value>5</Value>
-							</ValueList>
-						</Property>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
-								<Value>42</Value>
+								<Value>33</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OutputBusLowpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
-								<Value>-90</Value>
+								<Value>-340</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -32,8 +39,8 @@
 					<ChildrenList>
 						<AudioFileSource Name="71023__timbre__cooking-with-gas-like-a-rocket" ID="{E8F9849C-18EB-4A41-94BA-9AC21B06857A}">
 							<PropertyList>
-								<Property Name="LoopBegin" Type="Real64" Value="4.6187533557047"/>
-								<Property Name="LoopEnd" Type="Real64" Value="15.0312060961969"/>
+								<Property Name="LoopBegin" Type="Real64" Value="8.59812514158595"/>
+								<Property Name="LoopEnd" Type="Real64" Value="16.3858858530926"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 							</PropertyList>
 							<Language>SFX</Language>
@@ -45,6 +52,86 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="71023__timbre__cooking-with-gas-like-a-rocket" ID="{E8F9849C-18EB-4A41-94BA-9AC21B06857A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HIRE375_engine_running" ID="{7756C8CA-71F2-43C0-BE4C-32252A2F5A8D}" ShortID="278271283">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>330</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA5106A-6188-4D0C-9BE5-EF0DC419B4B7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D269FCBB-D992-45FD-929D-884A3F67BF1F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SpaceX Starship Raptor 2 engine test" ID="{D58BDCA6-C9AF-4EDC-B126-37952F78CE26}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="9.30726157082749"/>
+								<Property Name="TrimEnd" Type="Real64" Value="18.3460444424965"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SpaceX Starship Raptor 2 engine test.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="374107603"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SpaceX Starship Raptor 2 engine test" ID="{D58BDCA6-C9AF-4EDC-B126-37952F78CE26}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HIRE250_engine_running" ID="{B2D9CEB7-CFB4-4C45-9E91-D37F2B887D12}" ShortID="896967867">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>33</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-910</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA5106A-6188-4D0C-9BE5-EF0DC419B4B7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D269FCBB-D992-45FD-929D-884A3F67BF1F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SpaceX Raptor Engine Firing" ID="{9FDEB537-C220-4F60-B917-B915A0172BCE}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="4.39871736208509"/>
+								<Property Name="TrimEnd" Type="Real64" Value="13.7865839469378"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SpaceX Raptor Engine Firing.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="119253499"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SpaceX Raptor Engine Firing" ID="{9FDEB537-C220-4F60-B917-B915A0172BCE}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: KSP2UTSettings
   m_EditorClassIdentifier: 
   ignoredFiles: []
-  savedBuildPath: D:/Unity Projects/Builds/HIRE.zip
+  savedBuildPath: D:/HIRE/HIRE.zip
   savedBuildMode: Everything
   savedModAddressablesPath: E:/Steam/steamapps/common/Kerbal Space Program 2/BepInEx/plugins/HIRE
   savedKsp2Path: E:/Steam/steamapps/common/Kerbal Space Program 2/KSP2_x64.exe

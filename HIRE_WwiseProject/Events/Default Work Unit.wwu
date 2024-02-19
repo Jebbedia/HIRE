@@ -3,9 +3,20 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{2D840D3A-89D7-42AE-BE67-61F17B3A6561}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_HIRE125_engine_running" ID="{46534B20-09D3-48CD-AEDA-A1FBA8185EB3}">
+				<Event Name="Play_HIRE375_engine_running" ID="{0F5959B2-2DA9-469D-A2DA-65B4F680AE57}">
 					<ChildrenList>
-						<Action Name="" ID="{5068089A-4367-4A04-B4FD-DA73770A524B}" ShortID="1043420296">
+						<Action Name="" ID="{7563186F-E217-4D95-9D12-AA638C768208}" ShortID="430679917">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HIRE375_engine_running" ID="{7756C8CA-71F2-43C0-BE4C-32252A2F5A8D}" WorkUnitID="{850A38AF-60E4-4650-8AFC-BAA37D3AA908}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HIRE125_engine_running" ID="{E36D59EB-342D-4C4C-B2BE-F7C8E6CE6C7B}">
+					<ChildrenList>
+						<Action Name="" ID="{0B250122-5CD2-4F24-9349-038A4CA2787B}" ShortID="171011034">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="HIRE125_engine_running" ID="{55C3F72F-32F1-4D7B-9305-426C8DB93049}" WorkUnitID="{850A38AF-60E4-4650-8AFC-BAA37D3AA908}"/>
@@ -14,12 +25,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_HIRE125_engine_running_01" ID="{7B784F02-16ED-463B-ACEA-44B746095230}">
+				<Event Name="Play_HIRE250_engine_running" ID="{493E0404-9D5C-4C35-BDC3-8D6137E8D50E}">
 					<ChildrenList>
-						<Action Name="" ID="{A20A83B3-9DE7-4846-952B-50C9949E3687}" ShortID="538105144">
+						<Action Name="" ID="{0E34562A-E80C-4D0A-9AB3-1E5C178F9F6B}" ShortID="6398437">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="HIRE125_engine_running" ID="{55C3F72F-32F1-4D7B-9305-426C8DB93049}" WorkUnitID="{850A38AF-60E4-4650-8AFC-BAA37D3AA908}"/>
+									<ObjectRef Name="HIRE250_engine_running" ID="{B2D9CEB7-CFB4-4C45-9E91-D37F2B887D12}" WorkUnitID="{850A38AF-60E4-4650-8AFC-BAA37D3AA908}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

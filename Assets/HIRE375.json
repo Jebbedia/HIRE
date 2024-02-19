@@ -1,0 +1,229 @@
+{
+  "version": 0.3,
+  "useExternal": false,
+  "data": {
+    "partName": "HIRE375",
+    "author": "Kapazunder Industries",
+    "category": "Engine",
+    "family": "",
+    "childStageOffset": 1,
+    "cost": 600,
+    "crewCapacity": 0,
+    "stageOffset": 1,
+    "isCompound": false,
+    "sizeCategory": "L",
+    "stageType": "LiquidEngine",
+    "resourceCosts": [],
+    "tags": "launch propuls rocket",
+    "stagingIconAssetAddress": "Staging-Engines/Staging-ICO-Methalox.png",
+    "PartSizeDiameter": 3.75,
+    "angularDrag": 2.0,
+    "breakingForce": 100.0,
+    "breakingTorque": 100.0,
+    "buoyancy": 1.0,
+    "buoyancyUseSine": true,
+    "coLiftOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coMassOffset": {
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.0
+    },
+    "coPressureOffset": {
+      "x": 0.0,
+      "y": 1.1,
+      "z": 0.0
+    },
+    "coBuoyancy": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coDisplacement": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "crashTolerance": 20.0,
+    "explosionPotential": 2.5,
+    "fuelCrossFeed": true,
+    "heatConductivity": 0.0,
+    "mass": 2.0,
+    "maxTemp": 1700.0,
+    "attachRules": {
+      "stack": true,
+      "srfAttach": false,
+      "allowStack": true,
+      "allowSrfAttach": false,
+      "allowCollision": false,
+      "allowDock": false,
+      "allowRotate": true,
+      "allowRoot": false
+    },
+    "attachNodes": [
+      {
+        "nodeID": "top",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Stack",
+        "attachMethod": "FIXED_JOINT",
+        "IsMultiJoint": false,
+        "MultiJointMaxJoint": 0,
+        "MultiJointRadiusOffset": 0.0,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.0,
+          "y": 2.0,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "size": 2,
+        "visualSize": 2.0,
+        "isResourceCrossfeed": true,
+        "isRigid": true,
+        "angularStrengthMultiplier": 1.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      },
+      {
+        "nodeID": "bottom",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Stack",
+        "attachMethod": "FIXED_JOINT",
+        "IsMultiJoint": false,
+        "MultiJointMaxJoint": 0,
+        "MultiJointRadiusOffset": 0.0,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "size": 1,
+        "visualSize": 1.0,
+        "isResourceCrossfeed": true,
+        "isRigid": true,
+        "angularStrengthMultiplier": 1.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      }
+    ],
+    "resourceContainers": [
+      {
+        "name": "Ablator",
+        "capacityUnits": 1.0,
+        "initialUnits": 1.0,
+        "NonStageable": false
+      }
+    ],
+    "AllowKinematicPhysicsIfIntersectTerrain": false,
+    "serializedPartModules": [
+      {
+        "Name": "PartComponentModule_Color",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Color",
+            "ModuleType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Color, Assembly-CSharp",
+              "Base": {
+                "ContextKey": "Base",
+                "storedValue": {
+                  "r": 0.654902,
+                  "g": 0.6666667,
+                  "b": 0.6862745,
+                  "a": 1.0
+                }
+              },
+              "Accent": {
+                "ContextKey": "Accent",
+                "storedValue": {
+                  "r": 0.4117647,
+                  "g": 0.443137258,
+                  "b": 0.5176471,
+                  "a": 1.0
+                }
+              },
+              "ModuleType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "resourceSummary": {
+      "Consumes": [],
+      "Generates": [],
+      "Contains": []
+    },
+    "PAMModuleSortOverride": [],
+    "PAMModuleVisualsOverride": [],
+    "collisionVolumeBoundsScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "emissiveConstant": 0.0,
+    "maximumDrag": 0.2,
+    "minimumDrag": 0.2,
+    "physicsMode": "Full",
+    "inverseStageCarryover": false,
+    "skinMassPerArea": 0.0,
+    "bodyLiftOnlyUnattachedLift": false,
+    "bodyLiftOnlyAttachName": "",
+    "maxLength": 0,
+    "radiatorHeadroom": 0.0,
+    "radiatorMax": 0.0,
+    "skinMaxTemp": 0.0,
+    "skinInternalConductionMult": 0.0,
+    "thermalMassModifier": 0.85,
+    "buoyancyUseCubeNamed": "",
+    "HasReportStorage": false,
+    "oabEditorCategory": "VAB",
+    "partType": "Rocket",
+    "PreferredOrientation": "NONE",
+    "MirrorTechnique": "RotationYZ",
+    "CanSuggestOrientation": false,
+    "PickUpPointOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "PickupRotationPointOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "Title": "HIRE375",
+    "Subtitle": null,
+    "Manufacturer": null,
+    "Description": null
+  },
+  "modules": null,
+  "legacyModules": ""
+}

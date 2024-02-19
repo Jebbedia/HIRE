@@ -1,11 +1,11 @@
 {
   "spec": "2.0",
-  "mod_id": "sampleMod",
-  "name": "Sample Mod",
-  "author": "nobody",
-  "description": "A sample mod for KSP2",
+  "mod_id": "HIRE",
+  "name": "HIRE",
+  "author": "Kapzunder Industries",
+  "description": "Heatshield Integrated (Retractable) Engines",
   "source": "",
-  "version": "0.1.0",
+  "version": "0.7",
   "version_check": "",
   "ksp2_version": {
     "min": "*",
@@ -15,7 +15,14 @@
     {
       "id": "com.github.x606.spacewarp",
       "version": {
-        "min": "1.5.1",
+        "min": "1.9.0",
+        "max": "*"
+      }
+    },
+    {
+      "id": "lfo",
+      "version": {
+        "min": "1.0.0",
         "max": "*"
       }
     }

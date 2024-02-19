@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{526FB034-3826-4B10-A6F0-E531C7393CD3}" SchemaVersion="119">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{526FB034-3826-4B10-A6F0-E531C7393CD3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{526FB034-3826-4B10-A6F0-E531C7393CD3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Flanger" ID="{02B782B9-D03D-44A8-9E9E-DE6AD2FC1F62}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>
